@@ -1,6 +1,6 @@
 layers:
   default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BSPC, TAB, Q, W, E, R, T, Y, U, I, O, P, '[', LSHFT, A, S, D, F, G, H, J, K, L, ;, ENTER, LCTRL,
-    Z, X, C, V, B, N, M, ',', ., /, ']', MUTE, LEFT CONTROL, LALT, second, LGUI, first, SPACE, RGUI, third, RALT, RCTRL, ENTER, RIGHT, UP ARROW, LEFT, DOWN]
+    Z, X, C, V, B, N, M, ',', ., /, ']', MUTE, second, LALT, LEFT GUI, LGUI, first, SPACE, RGUI, third, RALT, RCTRL, ENTER, RIGHT, UP ARROW, LEFT, DOWN]
   first:
   - '`'
   - F1
@@ -116,9 +116,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
