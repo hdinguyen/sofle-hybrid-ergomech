@@ -15,11 +15,11 @@ layers:
   - '='
   - F11
   - {t: ▽, type: trans}
-  - '1'
-  - '2'
+  - Gui+ Q
+  - Gui+ W
   - '3'
-  - '4'
-  - '5'
+  - Gui+ R
+  - Gui+ T
   - '6'
   - '7'
   - '8'
@@ -27,7 +27,7 @@ layers:
   - '['
   - ']'
   - {t: ▽, type: trans}
-  - '!'
+  - Gui+ A
   - '@'
   - '#'
   - $
@@ -38,11 +38,11 @@ layers:
   - (
   - )
   - '|'
-  - {t: ▽, type: trans}
-  - '='
-  - '-'
-  - +
-  - '{'
+  - LCTRL
+  - Gui+ Z
+  - Gui+ X
+  - Gui+ C
+  - Gui+ V
   - '}'
   - '['
   - ']'
@@ -56,16 +56,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - Gui+ SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - A
-  - B
-  - C
-  - D
-  - E
+  - ENTER
+  - RIGHT ARROW
+  - UP ARROW
+  - LEFT ARROW
+  - DOWN ARROW
   second:
   - BT CLR
   - {t: BT, h: '0'}
