@@ -59,12 +59,12 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp GRAVE  &kp F1     &kp F2     &kp F3     &kp F4     &kp F5     &kp F6          &kp F7           &kp F8        &kp MINUS       &kp EQUAL          &kp F11
-&trans     &kp LG(Q)  &kp LG(W)  &kp N3     &kp LG(R)  &kp LG(T)  &kp N6          &kp N7           &kp N8        &kp LBKT        &kp RIGHT_BRACKET  &kp BSLH
-&kp LSHFT  &kp LG(A)  &kp AT     &kp HASH   &kp DLLR   &kp PRCNT  &kp CARET       &kp AMPS         &kp ASTRK     &kp LPAR        &kp RPAR           &kp ENTER
-&kp LCTRL  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp RBRC   &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SQT       &kp COLON       &kp BSLH           &kp NON_US_BACKSLASH
-&trans     &trans     &trans     &trans     &trans     &trans     &kp LG(SPACE)   &trans           &trans        &trans          &trans
-                                                                  &kp ENTER       &kp RIGHT_ARROW  &kp UP_ARROW  &kp LEFT_ARROW  &kp DOWN_ARROW
+&kp GRAVE    &kp F1     &kp F2     &kp F3     &kp F4     &kp F5     &kp F6          &kp F7           &kp F8        &kp LPAR        &kp RPAR        &kp F11
+&kp LG(TAB)  &kp LG(Q)  &kp LG(W)  &kp N3     &kp LG(R)  &kp LG(T)  &kp N6          &kp LG(U)        &kp LG(I)     &kp MINUS       &kp EQUAL       &kp LBKT
+&kp LSHFT    &kp LG(A)  &kp AT     &kp HASH   &kp DLLR   &kp PRCNT  &kp CARET       &kp AMPS         &kp ASTRK     &kp SQT         &kp SEMI        &kp ENTER
+&kp LCTRL    &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SQT       &kp COLON       &kp BSLH        &kp RIGHT_BRACKET
+&trans       &trans     &trans     &trans     &trans     &trans     &kp LG(SPACE)   &trans           &kp RSHFT     &trans          &trans
+                                                                    &kp ENTER       &kp RIGHT_ARROW  &kp UP_ARROW  &kp LEFT_ARROW  &kp DOWN_ARROW
             >;
 
             sensor-bindings =
