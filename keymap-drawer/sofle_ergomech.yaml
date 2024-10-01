@@ -1,5 +1,5 @@
 layers:
-  default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BSPC, TAB, Q, W, E, R, T, Y, U, I, O, P, '[', num, A, S, D, F, G, H, J, K, L, ;, ENTER, LSHFT,
+  default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BSPC, TAB, Q, W, E, R, T, Y, U, I, O, P, '[', code, A, S, D, F, G, H, J, K, L, ;, ENTER, LSHFT,
     Z, X, C, V, B, N, M, ',', ., /, ']', MUTE, LCTRL, LALT, LEFT GUI, first, first, SPACE, second, RSHFT, RALT, RCTRL, ENTER, RIGHT, UP ARROW, LEFT, DOWN]
   first:
   - '`'
@@ -37,7 +37,7 @@ layers:
   - '*'
   - ''''
   - ;
-  - {t: ▽, type: trans}
+  - Gui+ ENTER
   - LCTRL
   - Gui+ Z
   - Gui+ X
@@ -85,11 +85,11 @@ layers:
   - CMENU
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PG UP
   - {t: ▽, type: trans}
-  - UP
   - {t: ▽, type: trans}
-  - '0'
+  - {t: ▽, type: trans}
+  - '-'
+  - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LALT
@@ -97,11 +97,11 @@ layers:
   - LSHFT
   - {t: ▽, type: trans}
   - CLCK
-  - PG DN
-  - LEFT
-  - DOWN
-  - RIGHT
-  - DEL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''''
+  - {t: ▽, type: trans}
   - Ctl+ ENTER
   - {t: ▽, type: trans}
   - UNDO
@@ -111,9 +111,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -123,7 +123,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - RSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - A
@@ -131,7 +131,7 @@ layers:
   - C
   - D
   - E
-  num:
+  code:
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
