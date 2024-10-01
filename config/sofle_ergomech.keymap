@@ -59,9 +59,9 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp GRAVE    &kp F1     &kp F2     &kp F3     &kp F4     &kp F5     &kp F6          &kp F7           &kp N8        &kp LPAR        &kp RPAR        &kp F11
+&kp GRAVE    &kp F1     &kp F2     &kp F3     &kp F4     &kp F5     &kp F6          &kp F7           &kp N8        &kp LPAR        &kp RPAR        &trans
 &kp LG(TAB)  &kp LG(Q)  &kp LG(W)  &kp N3     &kp LG(R)  &kp LG(T)  &kp N6          &kp LG(U)        &kp LG(I)     &kp MINUS       &kp EQUAL       &kp LBKT
-&kp LSHFT    &kp LG(A)  &kp AT     &kp HASH   &kp DLLR   &kp PRCNT  &kp CARET       &kp AMPS         &kp ASTRK     &kp SQT         &kp SEMI        &kp ENTER
+&kp LSHFT    &kp LG(A)  &kp LG(S)  &kp HASH   &kp LG(F)  &kp PRCNT  &kp CARET       &kp AMPS         &kp ASTRK     &kp SQT         &kp SEMI        &trans
 &kp LCTRL    &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans        &trans          &kp BSLH        &kp RIGHT_BRACKET
 &trans       &trans     &trans     &trans     &trans     &trans     &kp LG(SPACE)   &trans           &kp RSHFT     &trans          &trans
                                                                     &kp ENTER       &kp RIGHT_ARROW  &kp UP_ARROW  &kp LEFT_ARROW  &kp DOWN_ARROW
