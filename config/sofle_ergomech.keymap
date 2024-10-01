@@ -61,7 +61,7 @@
             bindings = <
 &kp GRAVE    &kp F1     &kp F2     &kp F3     &kp F4     &kp F5     &kp F6          &kp F7           &kp N8        &kp LPAR        &kp RPAR        &trans
 &kp LG(TAB)  &kp LG(Q)  &kp LG(W)  &kp N3     &kp LG(R)  &kp LG(T)  &kp N6          &kp LG(U)        &kp LG(I)     &kp MINUS       &kp EQUAL       &kp LBKT
-&kp LSHFT    &kp LG(A)  &kp LG(S)  &kp HASH   &kp LG(F)  &kp PRCNT  &kp CARET       &kp AMPS         &kp ASTRK     &kp SQT         &kp SEMI        &trans
+&kp LSHFT    &kp LG(A)  &kp LG(S)  &kp HASH   &kp LG(F)  &kp PRCNT  &kp CARET       &kp AMPS         &kp ASTRK     &kp SQT         &kp SEMI        &kp LG(ENTER)
 &kp LCTRL    &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans        &trans          &kp BSLH        &kp RIGHT_BRACKET
 &trans       &trans     &trans     &trans     &trans     &trans     &kp LG(SPACE)   &trans           &kp RSHFT     &trans          &trans
                                                                     &kp ENTER       &kp RIGHT_ARROW  &kp UP_ARROW  &kp LEFT_ARROW  &kp DOWN_ARROW
@@ -83,18 +83,18 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans     &trans    &trans            &trans     &trans   &trans
-&trans      &kp INS       &kp PSCRN     &kp K_CMENU   &trans        &trans        &kp PG_UP  &trans    &kp UP            &trans     &kp N0   &trans
-&trans      &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK      &kp PG_DN  &kp LEFT  &kp DOWN          &kp RIGHT  &kp DEL  &kp RC(ENTER)
-&trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans     &trans    &kp SINGLE_QUOTE  &trans     &trans   &trans
-&trans      &trans        &trans        &trans        &trans        &trans        &trans     &trans    &trans            &trans     &trans
-                                                                                  &kp A      &kp B     &kp C             &kp D      &kp E
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans     &trans     &trans     &trans
+&trans      &kp INS       &kp PSCRN     &kp K_CMENU   &trans        &trans        &trans  &trans  &trans     &kp MINUS  &kp EQUAL  &trans
+&trans      &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK      &trans  &trans  &trans     &kp SQT    &trans     &kp RC(ENTER)
+&trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans  &trans  &trans     &trans     &kp BSLH   &trans
+&trans      &trans        &trans        &trans        &trans        &trans        &trans  &trans  &kp RSHFT  &trans     &trans
+                                                                                  &kp A   &kp B   &kp C      &kp D      &kp E
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
-        num_layer {
+        code_layer {
             // ----------------------------------------------------------------------------------------------------------------------------
             // | BTCLR  |  BT1    |  BT2    |   BT3   |   BT4   |   BT5   |                  |      |      |       |      |       |       |
             // | EXTPWR | RGB_HUD | RGB_HUI | RGB_SAD | RGB_SAI | RGB_EFF |                  |      |      |       |      |       |       |
@@ -102,7 +102,7 @@
             // |        |         |         |         |         |         | RGB_TOG | |      |      |      |       |      |       |       |
             //                    |         |         |         |         |         | |      |      |      |       |      |
 
-            label = "number";
+            label = "<code>";
             bindings = <
 &bt BT_CLR         &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4     &kp KP_NUMBER_6  &none  &none  &none  &none  &none
 &ext_power EP_TOG  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF  &none            &none  &none  &none  &none  &none
