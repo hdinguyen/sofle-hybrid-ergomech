@@ -1,6 +1,6 @@
 layers:
   default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BSPC, TAB, Q, W, E, R, T, Y, U, I, O, P, '[', num, A, S, D, F, G, H, J, K, L, ;, ENTER, LSHFT,
-    Z, X, C, V, B, N, M, ',', ., /, ']', MUTE, LCTRL, LALT, LEFT GUI, LGUI, first, SPACE, RGUI, second, RALT, RCTRL, ENTER, RIGHT, UP ARROW, LEFT, DOWN]
+    Z, X, C, V, B, N, M, ',', ., /, ']', MUTE, LCTRL, LALT, LEFT GUI, LGUI, first, SPACE, second, second, RALT, RCTRL, ENTER, RIGHT, UP ARROW, LEFT, DOWN]
   first:
   - '`'
   - F1
@@ -37,19 +37,19 @@ layers:
   - '*'
   - (
   - )
-  - '|'
+  - ENTER
   - LCTRL
   - Gui+ Z
   - Gui+ X
   - Gui+ C
   - Gui+ V
   - '}'
-  - '['
-  - ']'
-  - ;
+  - '{'
+  - '}'
+  - ''''
   - ':'
   - \
-  - {t: ▽, type: trans}
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -102,7 +102,7 @@ layers:
   - DOWN
   - RIGHT
   - DEL
-  - BSPC
+  - Ctl+ ENTER
   - {t: ▽, type: trans}
   - UNDO
   - CUT
@@ -111,8 +111,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -124,6 +123,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - A
