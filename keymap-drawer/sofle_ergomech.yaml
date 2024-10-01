@@ -11,21 +11,21 @@ layers:
   - F6
   - F7
   - F8
-  - '-'
-  - '='
+  - (
+  - )
   - F11
-  - {t: ▽, type: trans}
+  - Gui+ TAB
   - Gui+ Q
   - Gui+ W
   - '3'
   - Gui+ R
   - Gui+ T
   - '6'
-  - '7'
-  - '8'
+  - Gui+ U
+  - Gui+ I
+  - '-'
+  - '='
   - '['
-  - ']'
-  - \
   - LSHFT
   - Gui+ A
   - '@'
@@ -35,21 +35,21 @@ layers:
   - ^
   - '&'
   - '*'
-  - (
-  - )
+  - ''''
+  - ;
   - ENTER
   - LCTRL
   - Gui+ Z
   - Gui+ X
   - Gui+ C
   - Gui+ V
-  - '}'
+  - Gui+ B
   - '{'
   - '}'
   - ''''
   - ':'
   - \
-  - \
+  - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -58,7 +58,7 @@ layers:
   - {type: held}
   - Gui+ SPACE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ENTER
