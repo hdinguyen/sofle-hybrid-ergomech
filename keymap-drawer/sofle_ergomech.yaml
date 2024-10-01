@@ -13,7 +13,7 @@ layers:
   - '8'
   - (
   - )
-  - F11
+  - {t: ▽, type: trans}
   - Gui+ TAB
   - Gui+ Q
   - Gui+ W
@@ -28,16 +28,16 @@ layers:
   - '['
   - LSHFT
   - Gui+ A
-  - '@'
+  - Gui+ S
   - '#'
-  - $
+  - Gui+ F
   - '%'
   - ^
   - '&'
   - '*'
   - ''''
   - ;
-  - ENTER
+  - {t: ▽, type: trans}
   - LCTRL
   - Gui+ Z
   - Gui+ X
