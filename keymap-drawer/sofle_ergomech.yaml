@@ -1,12 +1,12 @@
 layers:
   default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BSPC, TAB, Q, W, E, R, T, Y, U, I, O, P, '[', code, A, S, D, F, G, H, J, K, L, ;, ENTER, LSHFT,
-    Z, X, C, V, B, N, M, ',', ., /, ']', MUTE, LCTRL, LALT, LEFT GUI, first, first, SPACE, second, RSHFT, RALT, RCTRL, ENTER, RIGHT, UP ARROW, LEFT, DOWN]
+    Z, X, C, V, B, N, M, ',', ., /, ']', MUTE, LCTRL, LALT, LEFT GUI, first, SPACE, SPACE, second, RSHFT, RALT, RCTRL, ENTER, RIGHT, UP ARROW, LEFT, DOWN]
   first:
   - '`'
   - F1
   - F2
   - F3
-  - F4
+  - '4'
   - F5
   - F6
   - F7
@@ -44,7 +44,7 @@ layers:
   - Gui+ C
   - Gui+ V
   - Gui+ B
-  - '{'
+  - Gui+ N
   - '}'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -62,10 +62,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ENTER
-  - RIGHT ARROW
-  - UP ARROW
-  - LEFT ARROW
-  - DOWN ARROW
+  - Gui+ RIGHT ARROW
+  - Gui+ UP ARROW
+  - Gui+ LEFT ARROW
+  - Gui+ DOWN ARROW
   second:
   - BT CLR
   - {t: BT, h: '0'}
@@ -126,11 +126,11 @@ layers:
   - RSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - A
-  - B
-  - C
-  - D
-  - E
+  - ENTER
+  - AGr+ RIGHT ARROW
+  - AGr+ UP ARROW
+  - AGr+ LEFT ARROW
+  - AGr+ DOWN ARROW
   code:
   - BT CLR
   - {t: BT, h: '0'}
