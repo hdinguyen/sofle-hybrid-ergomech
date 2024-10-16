@@ -1,6 +1,6 @@
 layers:
   default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BSPC, TAB, Q, W, E, R, T, Y, U, I, O, P, '[', code, A, S, D, F, G, H, J, K, L, ;, ENTER, LSHFT,
-    Z, X, C, V, B, N, M, ',', ., /, ']', MUTE, LCTRL, LALT, LGUI, first, SPACE, SPACE, second, RSHFT, RALT, RCTRL, ENTER, RIGHT, UP ARROW, LEFT, DOWN]
+    Z, X, C, V, B, N, M, ',', ., /, ']', MUTE, LCTRL, LALT, LGUI, first, SPACE, SPACE, second, RSHFT, RCTRL, RALT, ENTER, RIGHT, UP ARROW, LEFT, DOWN]
   first:
   - '`'
   - F1
