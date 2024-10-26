@@ -192,7 +192,7 @@ layers:
   - ''
   - ''
   - A
-  - B
-  - C
-  - D
-  - E
+  - END
+  - PG UP
+  - HOME
+  - PG DN
