@@ -83,12 +83,12 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans     &trans               &trans            &trans              &trans              &trans
-&trans      &kp INS       &kp PSCRN     &kp K_CMENU   &trans        &trans        &trans     &trans               &trans            &kp UNDER           &kp EQUAL           &trans
-&trans      &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK      &trans     &trans               &trans            &kp DOUBLE_QUOTES   &kp COLON           &kp RS(RETURN)
-&trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans     &trans               &trans            &trans              &kp PIPE            &trans
-&trans      &trans        &trans        &trans        &trans        &trans        &trans     &trans               &kp RSHFT         &trans              &trans
-                                                                                  &kp ENTER  &kp RA(RIGHT_ARROW)  &kp RA(UP_ARROW)  &kp RA(LEFT_ARROW)  &kp RA(DOWN_ARROW)
+&none   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans     &trans               &trans            &trans              &trans              &bt BT_CLR
+&trans  &kp INS       &kp PSCRN     &kp K_CMENU   &trans        &trans        &trans     &trans               &trans            &kp UNDER           &kp EQUAL           &trans
+&trans  &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK      &trans     &trans               &trans            &kp DOUBLE_QUOTES   &kp COLON           &kp RS(RETURN)
+&trans  &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans     &trans               &trans            &trans              &kp PIPE            &trans
+&trans  &trans        &trans        &trans        &trans        &trans        &trans     &trans               &kp RSHFT         &trans              &trans
+                                                                              &kp ENTER  &kp RA(RIGHT_ARROW)  &kp RA(UP_ARROW)  &kp RA(LEFT_ARROW)  &kp RA(DOWN_ARROW)
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -104,7 +104,7 @@
 
             label = "<code>";
             bindings = <
-&bt BT_CLR         &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4     &kp KP_NUMBER_6  &none  &none  &none  &none  &none
+&none              &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4     &kp KP_NUMBER_6  &none  &none  &none  &none  &bt BT_CLR
 &ext_power EP_TOG  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF  &none            &none  &none  &none  &none  &none
 &none              &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &none            &none            &none            &none            &none  &none  &none  &none  &none
 &none              &none            &none            &none            &none            &none            &none            &none  &none  &none  &none  &none
