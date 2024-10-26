@@ -88,7 +88,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '-'
+  - _
   - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -100,9 +100,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''''
-  - {t: ▽, type: trans}
-  - Ctl+ ENTER
+  - '"'
+  - ':'
+  - Sft+ RETURN
   - {t: ▽, type: trans}
   - UNDO
   - CUT
@@ -113,7 +113,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - \
+  - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
