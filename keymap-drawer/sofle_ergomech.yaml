@@ -67,7 +67,7 @@ layers:
   - Gui+ LEFT ARROW
   - Gui+ DOWN ARROW
   second:
-  - BT CLR
+  - ''
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -78,7 +78,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR
   - {t: ▽, type: trans}
   - INS
   - PSCRN
@@ -132,7 +132,7 @@ layers:
   - AGr+ LEFT ARROW
   - AGr+ DOWN ARROW
   code:
-  - BT CLR
+  - ''
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -143,7 +143,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - BT CLR
   - EP TOG
   - RGB HUD
   - RGB HUI
