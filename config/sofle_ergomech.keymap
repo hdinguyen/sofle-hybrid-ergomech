@@ -107,7 +107,7 @@
 &none            &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF  &none            &none    &none      &none     &none      &none
 &none            &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &none            &none            &none            &none            &none    &none      &none     &none      &none
 &none            &none            &none            &none            &none            &none            &none            &none    &none      &none     &none      &none
-&rgb_ug RGB_TOG  &none            &none            &none            &none            &kp SPACE        &none            &none    &none      &none     &none
+&rgb_ug RGB_TOG  &none            &none            &none            &none            &kp SPACE        &kp SPACE        &none    &none      &none     &none
                                                                                                       &kp A            &kp END  &kp PG_UP  &kp HOME  &kp PG_DN
             >;
         };
