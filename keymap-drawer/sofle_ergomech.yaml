@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: sofle_ergomech}
 layers:
   default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BSPC, TAB, Q, W, E, R, T, Y, U, I, O, P, '[', <code>, A, S, D, F, G, H, J, K, L, ;, ENTER, LSHFT,
     Z, X, C, V, B, N, M, ',', ., /, ']', MUTE, LCTRL, LALT, LGUI, 1st, SPACE, SPACE, 2nd, RSHFT, RCTRL, RALT, ENTER, RIGHT, UP ARROW, LEFT, DOWN]
@@ -14,37 +15,37 @@ layers:
   - (
   - )
   - {t: ▽, type: trans}
-  - Gui+ TAB
-  - Gui+ Q
-  - Gui+ W
+  - Gui+TAB
+  - Gui+Q
+  - Gui+W
   - '3'
-  - Gui+ R
-  - Gui+ T
+  - Gui+R
+  - Gui+T
   - '6'
-  - Gui+ U
-  - Gui+ I
+  - Gui+U
+  - Gui+I
   - '-'
   - '='
   - '['
   - LSHFT
-  - Gui+ A
-  - Gui+ S
+  - Gui+A
+  - Gui+S
   - '#'
-  - Gui+ F
+  - Gui+F
   - '%'
   - ^
   - '&'
-  - Gui+ K
+  - Gui+K
   - ''''
   - ;
-  - Gui+ ENTER
+  - Gui+ENTER
   - LCTRL
-  - Gui+ Z
-  - Gui+ X
-  - Gui+ C
-  - Gui+ V
-  - Gui+ B
-  - Gui+ N
+  - Gui+Z
+  - Gui+X
+  - Gui+C
+  - Gui+V
+  - Gui+B
+  - Gui+N
   - '}'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -56,16 +57,16 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - Gui+ SPACE
+  - Gui+SPACE
   - {t: ▽, type: trans}
   - RSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ENTER
-  - Gui+ RIGHT ARROW
-  - Gui+ UP ARROW
-  - Gui+ LEFT ARROW
-  - Gui+ DOWN ARROW
+  - Gui+RIGHT ARROW
+  - Gui+UP ARROW
+  - Gui+LEFT ARROW
+  - Gui+DOWN ARROW
   2nd:
   - ''
   - '!'
@@ -102,7 +103,7 @@ layers:
   - {t: ▽, type: trans}
   - '"'
   - ':'
-  - Sft+ RETURN
+  - Sft+RETURN
   - {t: ▽, type: trans}
   - UNDO
   - CUT
@@ -127,10 +128,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ENTER
-  - AGr+ RIGHT ARROW
-  - AGr+ UP ARROW
-  - AGr+ LEFT ARROW
-  - AGr+ DOWN ARROW
+  - AltGr+RIGHT ARROW
+  - AltGr+UP ARROW
+  - AltGr+LEFT ARROW
+  - AltGr+DOWN ARROW
   <code>:
   - ''
   - {t: BT, h: '0'}
@@ -186,7 +187,7 @@ layers:
   - ''
   - ''
   - SPACE
-  - ''
+  - SPACE
   - ''
   - ''
   - ''
