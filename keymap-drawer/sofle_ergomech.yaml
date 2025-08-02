@@ -20,12 +20,12 @@ layers:
   - Gui+W
   - '3'
   - Gui+R
-  - Gui+T
+  - '"'
   - '6'
   - Gui+U
   - Gui+I
-  - '-'
-  - '='
+  - _
+  - +
   - '['
   - LSHFT
   - Gui+A
@@ -44,7 +44,7 @@ layers:
   - Gui+X
   - Gui+C
   - Gui+V
-  - Gui+B
+  - Ctl+B
   - Gui+N
   - '}'
   - {t: ▽, type: trans}
@@ -89,7 +89,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - _
+  - '-'
   - '='
   - '{'
   - {t: ▽, type: trans}
