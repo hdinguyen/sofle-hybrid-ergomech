@@ -58,12 +58,12 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp GRAVE    &kp F1     &kp F2     &kp F3     &kp NUMBER_4  &kp F5     &kp F6         &kp F7               &kp N8            &kp LPAR            &kp RPAR            &trans
-&kp LG(TAB)  &kp LG(Q)  &kp LG(W)  &kp N3     &kp LG(R)     &kp LG(T)  &kp N6         &kp LG(U)            &kp LG(I)         &kp MINUS           &kp EQUAL           &kp LBKT
-&kp LSHFT    &kp LG(A)  &kp LG(S)  &kp HASH   &kp LG(F)     &kp PRCNT  &kp CARET      &kp AMPS             &kp LG(K)         &kp SQT             &kp SEMI            &kp LG(ENTER)
-&kp LCTRL    &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)     &kp LG(B)  &kp LG(N)      &kp RIGHT_BRACE      &trans            &trans              &kp BSLH            &kp RIGHT_BRACKET
-&trans       &trans     &trans     &trans     &trans        &trans     &kp LG(SPACE)  &trans               &kp RSHFT         &trans              &trans
-                                                                       &kp ENTER      &kp LG(RIGHT_ARROW)  &kp LG(UP_ARROW)  &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)
+&kp GRAVE    &kp F1     &kp F2     &kp F3     &kp NUMBER_4  &kp F5             &kp F6         &kp F7               &kp N8            &kp LPAR            &kp RPAR            &trans
+&kp LG(TAB)  &kp LG(Q)  &kp LG(W)  &kp N3     &kp LG(R)     &kp DOUBLE_QUOTES  &kp N6         &kp LG(U)            &kp LG(I)         &kp UNDERSCORE      &kp PLUS            &kp LBKT
+&kp LSHFT    &kp LG(A)  &kp LG(S)  &kp HASH   &kp LG(F)     &kp PRCNT          &kp CARET      &kp AMPS             &kp LG(K)         &kp SQT             &kp SEMI            &kp LG(ENTER)
+&kp LCTRL    &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)     &kp LC(B)          &kp LG(N)      &kp RIGHT_BRACE      &trans            &trans              &kp BSLH            &kp RIGHT_BRACKET
+&trans       &trans     &trans     &trans     &trans        &trans             &kp LG(SPACE)  &trans               &kp RSHFT         &trans              &trans
+                                                                               &kp ENTER      &kp LG(RIGHT_ARROW)  &kp LG(UP_ARROW)  &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)
             >;
 
             sensor-bindings =
@@ -83,7 +83,7 @@
 
             bindings = <
 &none   &kp EXCLAMATION  &none      &none        &none        &none     &trans     &kp AMPERSAND        &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
-&trans  &kp INS          &kp PSCRN  &kp K_CMENU  &trans       &trans    &trans     &trans               &trans            &kp UNDER             &kp EQUAL              &kp LEFT_BRACE
+&trans  &kp INS          &kp PSCRN  &kp K_CMENU  &trans       &trans    &trans     &trans               &trans            &kp MINUS             &kp EQUAL              &kp LEFT_BRACE
 &trans  &kp LALT         &kp LCTRL  &kp LSHFT    &trans       &kp CLCK  &trans     &trans               &trans            &kp DOUBLE_QUOTES     &kp COLON              &kp RS(RETURN)
 &trans  &kp K_UNDO       &kp K_CUT  &kp K_COPY   &kp K_PASTE  &trans    &trans     &trans               &kp LESS_THAN     &kp GREATER_THAN      &kp PIPE               &kp RIGHT_BRACE
 &trans  &trans           &trans     &trans       &trans       &trans    &trans     &trans               &kp RSHFT         &trans                &trans
