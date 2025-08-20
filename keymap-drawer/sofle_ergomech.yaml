@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle_ergomech}
 layers:
   default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BSPC, TAB, Q, W, E, R, T, Y, U, I, O, P, '[', <code>, A, S, D, F, G, H, J, K, L, ;, ENTER, LSHFT,
-    Z, X, C, V, B, N, M, ',', ., /, ']', MUTE, LCTRL, LALT, LGUI, 1st, SPACE, SPACE, 2nd, RALT, RSHFT, RCTRL, ENTER, RIGHT, UP ARROW, LEFT, DOWN]
+    Z, X, C, V, B, N, M, ',', ., /, ']', MUTE, LCTRL, LALT, LGUI, 1st, RETURN, SPACE, 2nd, RALT, RSHFT, RCTRL, ENTER, RIGHT, UP ARROW, LEFT, DOWN]
   1st:
   - '`'
   - F1
@@ -77,8 +77,8 @@ layers:
   - {t: ▽, type: trans}
   - '&'
   - '*'
-  - (
-  - )
+  - '-'
+  - '='
   - ''
   - {t: ▽, type: trans}
   - INS
@@ -89,9 +89,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '-'
-  - '='
-  - '|'
+  - '['
+  - ']'
+  - \
   - {t: ▽, type: trans}
   - LALT
   - LCTRL
@@ -101,8 +101,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '"'
-  - ':'
+  - ;
+  - ''''
   - Sft+RETURN
   - {t: ▽, type: trans}
   - UNDO
