@@ -68,41 +68,41 @@ layers:
   - Gui+LEFT ARROW
   - Gui+DOWN ARROW
   2nd:
-  - ''
+  - '~'
   - '!'
   - ''
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - '&'
+  - (
+  - )
   - '*'
   - '-'
   - '='
-  - ''
+  - \
   - {t: ▽, type: trans}
   - INS
   - PSCRN
   - CMENU
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '{'
+  - '}'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - \
+  - ':'
+  - '='
+  - '{'
   - {t: ▽, type: trans}
   - LALT
   - LCTRL
   - LSHFT
   - {t: ▽, type: trans}
   - CLCK
+  - '['
+  - ']'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ;
   - ''''
+  - ;
   - Sft+RETURN
   - {t: ▽, type: trans}
   - UNDO
@@ -110,11 +110,11 @@ layers:
   - COPY
   - PASTE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - <
   - '>'
-  - '|'
+  - ''
+  - ''
+  - ''
   - '}'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
