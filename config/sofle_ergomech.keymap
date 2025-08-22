@@ -82,12 +82,12 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&none   &kp EXCLAMATION  &none      &none        &none        &none     &trans     &kp AMPERSAND        &kp ASTERISK      &kp MINUS           &kp EQUAL           &none
-&trans  &kp INS          &kp PSCRN  &kp K_CMENU  &trans       &trans    &trans     &trans               &trans            &kp LEFT_BRACKET    &kp RIGHT_BRACKET   &kp BACKSLASH
-&trans  &kp LALT         &kp LCTRL  &kp LSHFT    &trans       &kp CLCK  &trans     &trans               &trans            &kp SEMICOLON       &kp SINGLE_QUOTE    &kp RS(RETURN)
-&trans  &kp K_UNDO       &kp K_CUT  &kp K_COPY   &kp K_PASTE  &trans    &trans     &trans               &kp LESS_THAN     &kp GREATER_THAN    &kp PIPE            &kp RIGHT_BRACE
-&trans  &trans           &trans     &trans       &trans       &trans    &trans     &trans               &kp RSHFT         &trans              &trans
-                                                                        &kp ENTER  &kp RA(RIGHT_ARROW)  &kp RA(UP_ARROW)  &kp RA(LEFT_ARROW)  &kp RA(DOWN_ARROW)
+&kp TILDE  &kp EXCLAMATION  &none      &none        &none        &none     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK      &kp MINUS           &kp EQUAL           &kp BACKSLASH
+&trans     &kp INS          &kp PSCRN  &kp K_CMENU  &trans       &trans    &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans            &kp COLON           &kp EQUAL           &kp LEFT_BRACE
+&trans     &kp LALT         &kp LCTRL  &kp LSHFT    &trans       &kp CLCK  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans            &kp SINGLE_QUOTE    &kp SEMICOLON       &kp RS(RETURN)
+&trans     &kp K_UNDO       &kp K_CUT  &kp K_COPY   &kp K_PASTE  &trans    &kp LESS_THAN         &kp GREATER_THAN       &none             &none               &none               &kp RIGHT_BRACE
+&trans     &trans           &trans     &trans       &trans       &trans    &trans                &trans                 &kp RSHFT         &trans              &trans
+                                                                           &kp ENTER             &kp RA(RIGHT_ARROW)    &kp RA(UP_ARROW)  &kp RA(LEFT_ARROW)  &kp RA(DOWN_ARROW)
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
