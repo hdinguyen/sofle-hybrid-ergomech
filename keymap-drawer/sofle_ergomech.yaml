@@ -12,8 +12,8 @@ layers:
   - F6
   - F7
   - '8'
-  - (
-  - )
+  - '-'
+  - '='
   - {t: ▽, type: trans}
   - Gui+TAB
   - Gui+Q
@@ -59,7 +59,7 @@ layers:
   - {t: ▽, type: trans}
   - Gui+SPACE
   - {t: ▽, type: trans}
-  - RSHFT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ENTER
@@ -124,7 +124,7 @@ layers:
   - ENTER
   - {t: ▽, type: trans}
   - {type: held}
-  - RSHFT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ENTER
